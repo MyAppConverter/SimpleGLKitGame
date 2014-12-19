@@ -1,0 +1,18 @@
+
+{
+    "ndk_module_path" :[
+ 
+"/SimpleGLKitGame/cocos2d",
+
+"/SimpleGLKitGame/cocos2d/extension",
+
+
+
+    ],
+    "copy_resources": [
+        {
+            "from": "../Resources",
+            "to": ""
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.razeware.SimpleGLKitGame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    <uses-feature android:glEsVersion="0x00020000"
+              android:required="true" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:name=".SGGAppDelegate"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_default"
+        android:label="@string/SimpleGLKitGame"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.razeware.SimpleGLKitGame.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
